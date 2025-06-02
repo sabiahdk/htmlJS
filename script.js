@@ -35,10 +35,10 @@
 
 // console.log(document.getElementsByClassName('li').textContent = 'garri')
 
- let lett = document.getElementById('let')
-   lett.style.color = "blue"
-   lett.style.backgroundColor = 'pink'
-   lett.style.fontSize = "100px"
+//  let lett = document.getElementById('let')
+//    lett.style.color = "blue"
+//    lett.style.backgroundColor = 'pink'
+//    lett.style.fontSize = "100px"
   
 
 // events in JS
@@ -64,4 +64,21 @@
 
 
 //  }
-document.getElementById("btn").addEventListener('click'),opener
+// document.getElementById("btn").addEventListener('click'),opener
+
+
+// asynchronous javascript
+
+  console.log("first task");
+  console.log("second task");
+  console.log("third task");
+  console.log("fourth task");
+  
+ for(let i=0; i< 1000; i++){
+  console.log("delayyy")
+ }
+
+ setTimeout(() => {
+    console.log("washing cloth")
+ }, 1000)
+ 
