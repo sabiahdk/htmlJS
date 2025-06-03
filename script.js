@@ -69,16 +69,25 @@
 
 // asynchronous javascript
 
-  console.log("first task");
-  console.log("second task");
-  console.log("third task");
-  console.log("fourth task");
+//   console.log("first task");
+//   console.log("second task");
+//   console.log("third task");
+//   console.log("fourth task");
   
- for(let i=0; i< 1000; i++){
-  console.log("delayyy")
- }
+//  for(let i=0; i< 1000; i++){
+//   console.log("delayyy")
+//  }
 
- setTimeout(() => {
-    console.log("washing cloth")
- }, 1000)
+//  setTimeout(() => {
+//     console.log("washing cloth")
+//  }, 1000)
+
+fetch("https://restcountries.com/v3.1/all")
+ .then(res => res.json())
+ .then(data => {
+    console.log(data);
+    
+ })
+
+
  
